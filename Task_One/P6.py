@@ -1,0 +1,8 @@
+x= eval(input("Enter an integer: "))
+y= eval(input("Enter a float type number: "))
+z= input("Enter a string: ")
+w=eval(input("Enter a complex number: "))
+print("The data type of input value is: ",type(x))
+print("The data type of input value is: ",type(y))
+print("The data type of input value is: ",type(z))
+print("The data type of input value is: ",type(w))
