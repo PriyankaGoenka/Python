@@ -1,0 +1,5 @@
+x=filter(lambda y:y%2==0,range(1,11))
+y=list(x)
+#print(y)
+square=map(lambda z:z**2, y )
+print(list(square))
