@@ -12,7 +12,7 @@ print(y)
         z=''.join(i)
         print(z)'''
 # Pascal case or upper camel case
-z= ''.join(i.capitalize() for i in y if i.isalnum())
+z= ''.join(i.capitalize() for i in y if i.isalnum()) #use of capitalize() function capitalize() first letter of string and make other letters lowercase
 print(z)
 
 # lower camel case
